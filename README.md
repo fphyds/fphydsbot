@@ -3,7 +3,7 @@
 This telegram bot @fhydsbot can detect human's faces, determine genders and ages by photo. All you need is just send your photo to bot and wait for the result.
 
 ## Examples
-
+![example](https://gitlab.com/Zavyalov1/fphydsbot/-/blob/master/IMG_2685.png)
 
 
 ## How to install
