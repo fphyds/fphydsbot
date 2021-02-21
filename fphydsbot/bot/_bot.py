@@ -36,7 +36,7 @@ class Bot:
             file_info = self.bot.get_file(file_id)
             downloaded_file = self.bot.download_file(file_info.file_path)
 
-            path = os.path.dirname(os.path.abspath(__file__))
+            path = os.path.dirname(os.path.relpath(__file__))
             with open(f"{path}/photos/{message.chat.id}.jpg", 'wb') as photo:
                 photo.write(downloaded_file)
 

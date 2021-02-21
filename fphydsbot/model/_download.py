@@ -17,7 +17,7 @@ def download_files(urls, file_names):
         data = u.read()
         u.close()
 
-        path = os.path.dirname(os.path.abspath(__file__))
+        path = os.path.dirname(os.path.relpath(__file__))
         path = os.path.join(path, f'models/{file_name}')
         with open(path, "wb") as f:
             f.write(data)
