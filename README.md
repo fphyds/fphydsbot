@@ -2,13 +2,13 @@
 
 ## How to install
 
-```
+```console
 python3 setup.py install
 ```
 
 ## How to run the bot
 
-```
+```python3
 # simple usage
 import fphydsbot
 
