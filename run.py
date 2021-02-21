@@ -1,6 +1,6 @@
 import fphydsbot
 
-TOKEN = '1602688785:AAHv9seoWFMSWlxr_80dPRjG9w0oCWvPFiw'
+TOKEN = 'YOUR TOKEN'
 bot = fphydsbot.bot.Bot(TOKEN)
 bot.run()
 
