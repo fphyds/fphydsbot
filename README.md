@@ -1,6 +1,6 @@
 # X5School Python Project - fphydsbot
 
-This is a python package for telegram bot @fhydsbot which can detect human's faces, determine genders and ages by photo. All you need is just send your photo to bot and wait for the result.
+This is a python package for telegram bot ```@fphydsbot``` which can detect human's faces, determine genders and ages by photo. All you need is just send your photo to bot and wait for the result.
 
 ## Examples
 ![](IMG_2686.png)
