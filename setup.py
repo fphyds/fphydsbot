@@ -29,20 +29,20 @@ download_files(
 )
 
 setuptools.setup(
-    name="distance",
+    name="fhydsbot",
     version="0.0.1",
-    author="sggpls",
-    author_email="sggplz@yandex.ru",
-    description="A small example package",
+    author="Zavyalov1",
+    author_email="fedruch@gmail.com",
+    description="X5School project fhydsbot",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://gitlab.com/saygogoplz/distance.git",
+    url="https://gitlab.com/Zavyalov1/fphydsbot.git",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=["textdistance==4.2.0", "Deprecated==1.2.11"],
+    install_requires=["imutils==0.5.2", "numpy==1.15.4", "opencv-python==4.1.0.25", "dlib==19.17.0"],
     python_requires='>=3.8',
 )
