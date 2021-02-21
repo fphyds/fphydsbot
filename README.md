@@ -26,7 +26,7 @@ bot.run()
 
 ## Package structure
 
-Models for detection and predicting genders and ages are stored at ```fphydsbot/model/_model```. There is a script for downloading model's weights and CNN architectures are stored at ```fphydsbot/model/_download```, they will be stored at ```fhydsbot/model/models``` after downloading.
+Models for detection and predicting genders and ages are stored at ```fphydsbot/model/_model```. There is a script for downloading model's weights and CNN architectures are stored at ```fphydsbot/model/_download```, they will be stored at ```fphydsbot/model/models``` after downloading.
 
 Bot interface are stored at ```fphydsbot/bot/_bot```.
 
