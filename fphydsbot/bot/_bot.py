@@ -26,8 +26,7 @@ class Bot:
         @self.bot.message_handler(commands=['start'])
         def send_welcome(message):
             text = "Hi! I'm @fphydsbot, I can detect faces, determine human's genders and ages by photo.\n\n"
-            text += 'Send me the first photo!\n\n'
-            text += 'Source code: '
+            text += 'Send me the first photo!'
             self.bot.send_message(message.chat.id, text)
 
         @self.bot.message_handler(content_types=['photo'])
