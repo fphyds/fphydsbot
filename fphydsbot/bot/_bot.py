@@ -2,7 +2,6 @@ import telebot
 import cv2
 import os
 from fphydsbot.model import Model, transform
-from fphydsbot.bot import TOKEN
 
 
 class Bot:
