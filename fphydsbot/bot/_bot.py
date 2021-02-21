@@ -36,7 +36,7 @@ class Bot:
             file_info = self.bot.get_file(file_id)
             downloaded_file = self.bot.download_file(file_info.file_path)
 
-            path = os.path.dirname(os.path.relpath(__file__))
+            path = os.path.dirname(os.path.abspath(__file__))
             with open(f"{path}/photos/{message.chat.id}.jpg", 'wb') as photo:
                 photo.write(downloaded_file)
 
@@ -53,9 +53,3 @@ class Bot:
             self.bot.send_photo(message.chat.id, out_photo)
 
         self.bot.polling()
-
-
-if __name__ == '__main__':
-    TOKEN = TOKEN
-    Bot = Bot(TOKEN)
-    Bot.run()

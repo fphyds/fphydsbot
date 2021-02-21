@@ -34,7 +34,7 @@ class Model:
         predict detected faces, genders and ages by given image
     """
     def __init__(self):
-        path = f'{os.path.dirname(os.path.relpath(__file__))}/models'
+        path = f'{os.path.dirname(os.path.abspath(__file__))}/models'
 
         with open(f"{path}/model_weights.txt", 'r') as f:
             self.model_mean_values = [float(value) for value in f.readlines()]
